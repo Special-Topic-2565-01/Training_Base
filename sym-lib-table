@@ -5,4 +5,5 @@
   (lib (name "misc")(type "Legacy")(uri "D:/GitHubRepos/__ESP32_Hardware/kicad-lib/misc.lib")(options "")(descr ""))
   (lib (name "nodemcu")(type "Legacy")(uri "D:/GitHubRepos/__ESP32_Hardware/kicad-lib/nodemcu.lib")(options "")(descr ""))
   (lib (name "sensors")(type "Legacy")(uri "D:/GitHubRepos/__ESP32_Hardware/kicad-lib/sensors.lib")(options "")(descr ""))
+  (lib (name "FP")(type "Legacy")(uri "D:/GitHubRepos/__ESP32_Hardware/esp32_devkit_38Pins/mighty_esp32_38_pins-custom_library.lib")(options "")(descr ""))
 )
