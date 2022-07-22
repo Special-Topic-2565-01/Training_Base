@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "doit-esp32-devkit-kicad")(type "KiCad")(uri "D:/GitHubRepos/__ENGEDU/2022_Special_Topics/doit-esp32-devkit-kicad")(options "")(descr ""))
   (lib (name "Library")(type "KiCad")(uri "D:/GitHubRepos/__ESP32_Hardware/Library/Library.pretty")(options "")(descr ""))
+  (lib (name "Sensors")(type "KiCad")(uri "D:/GitHubRepos/__ESP32_Hardware/kicad-lib/Sensors.pretty")(options "")(descr ""))
 )

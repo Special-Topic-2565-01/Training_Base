@@ -1,4 +1,8 @@
 (sym_lib_table
   (lib (name "hc-sr04")(type "Legacy")(uri "${KIPRJMOD}/Library/hc-sr04.lib")(options "")(descr ""))
   (lib (name "Training_board")(type "KiCad")(uri "${KIPRJMOD}/Training_board.kicad_sym")(options "")(descr ""))
+  (lib (name "A6_GSM")(type "Legacy")(uri "D:/GitHubRepos/__ESP32_Hardware/kicad-lib/A6_GSM.lib")(options "")(descr ""))
+  (lib (name "misc")(type "Legacy")(uri "D:/GitHubRepos/__ESP32_Hardware/kicad-lib/misc.lib")(options "")(descr ""))
+  (lib (name "nodemcu")(type "Legacy")(uri "D:/GitHubRepos/__ESP32_Hardware/kicad-lib/nodemcu.lib")(options "")(descr ""))
+  (lib (name "sensors")(type "Legacy")(uri "D:/GitHubRepos/__ESP32_Hardware/kicad-lib/sensors.lib")(options "")(descr ""))
 )
