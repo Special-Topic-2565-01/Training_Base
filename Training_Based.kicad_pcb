@@ -3018,7 +3018,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 7e2c2289-c961-4e6e-8466-74303782c016)
-    (at 56.85 59.4)
+    (at 61.9 72.69)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Training_Based.kicad_sch")
@@ -7062,6 +7062,9 @@
   )
   (gr_text "NC" (at 217.25 64.3675) (layer "F.SilkS") (tstamp 62ec719e-867f-404c-90cf-45da681ec67d)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right bottom))
+  )
+  (gr_text "OPTO\nElectronic" (at 56.65 68.1) (layer "F.SilkS") (tstamp 67354b4c-90d1-4ca1-8a00-52918b0b0c5f)
+    (effects (font (size 2.54 2.54) (thickness 0.2)) (justify bottom))
   )
   (gr_text "+5V" (at 121.4 155.4656) (layer "F.SilkS") (tstamp 6a4dbbfc-d6b3-4b85-8eca-5102ff540dfd)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
