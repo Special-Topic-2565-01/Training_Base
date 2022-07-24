@@ -39,7 +39,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 32a8d141-ce7a-4c29-9a1d-fd6bee8856c0))
   (pad "1" smd rect (at -2 0) (size 1.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5d0d2224-9b5f-4cec-adaf-0bb30c247028))
   (pad "2" smd rect (at 2 0) (size 1.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eafc0990-2a2f-4665-b18d-7496a4af1dee))
-  (model "Housings_DO/DO-214AC.wrl"
+  (model "${KIPRJMOD}/3D Model/DO-214AC.step"
     (offset (xyz 2.031999969 1.371599979 1.219199982))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
