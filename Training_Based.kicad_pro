@@ -55,7 +55,15 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|36301250|59964345|fa9ad1e3-a42b-46aa-88ce-adb062de057e|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|20000000|101680000|d774750c-cc4b-4d2c-bd3c-2d8f05122853|12a09e32-fec6-4f4c-b6aa-1f2ef60a6b30",
+        "silk_overlap|21000000|101180000|3466f75e-df2c-4eda-85b4-ab47bb5b0c28|1fe9d9dd-13a3-4d9f-b99a-903a79e9c0b8",
+        "silk_overlap|21000000|108420000|3466f75e-df2c-4eda-85b4-ab47bb5b0c28|3fef647a-bbdd-45b2-a263-58ec2f30bbfa",
+        "silk_overlap|80887500|35950000|812a2d2c-fd3d-406c-8425-a8ea635e06bd|3f41910e-f331-4f60-850f-b5f5fc5f33e1",
+        "silk_overlap|90087500|35950000|0667242d-c749-49ca-b282-a359c25e2076|7a04db9d-c4f3-4c49-b334-e93f4a611585",
+        "silk_overlap|91487500|24447247|a8651f71-b0e9-4a4e-a589-74f4a10a65e6|8dc69f4b-4047-4569-afa4-372d79496032"
+      ],
       "meta": {
         "version": 2
       },
@@ -172,7 +180,21 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.5,
+        1.75,
+        2.0,
+        2.5,
+        3.0,
+        3.5
       ],
       "via_dimensions": [
         {
