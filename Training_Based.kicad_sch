@@ -3541,6 +3541,8 @@
     (uuid f710057e-aac3-4f0d-bdee-d20667c529b6)
   )
 
+  (no_connect (at 69.215 187.325) (uuid 11bf878c-1c26-4278-9251-1cdcc0a4b347))
+
   (wire (pts (xy 92.71 63.5) (xy 92.71 59.69))
     (stroke (width 0) (type default))
     (uuid 0034360f-d7d1-4004-b045-1d86409ed6a3)
