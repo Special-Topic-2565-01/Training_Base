@@ -1,6 +1,14 @@
 # Training_Base
 Training board base
 
+## Components ##
+
+### Temperature and Humidity sensor ###
+
+
+
+
+
 ## Design tool ##
 
 ### Kicad ### 
