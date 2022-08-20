@@ -1,4 +1,4 @@
-(kicad_sch (version 20220404) (generator eeschema)
+(kicad_sch (version 20220622) (generator eeschema)
 
   (uuid 85536000-7873-4d32-a284-496267db1165)
 
@@ -8064,14 +8064,10 @@
     (property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf" (id 3) (at 49.53 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid bfdfc9bc-8a15-4891-9fca-d32cb0ae7055))
-    (pin "2" (uuid 3d8518a0-1e43-486d-a38c-38809bf5124f))
-    (pin "7" (uuid 010719b6-03c7-44db-9815-a61fcd9cd176))
-    (pin "8" (uuid 28157bdb-5541-4d5b-a0a2-80490bec0850))
-    (pin "3" (uuid 1fa855a8-c476-4c65-a4e3-3b9ee8b2e8cd))
-    (pin "4" (uuid f585565d-e981-4e43-9a3d-a3e90a794936))
-    (pin "5" (uuid f80177de-c464-485b-a0bd-9f1de98f45ba))
-    (pin "6" (uuid e92cc3aa-f64d-41a1-91d4-522751c215b4))
+    (pin "3" (uuid df26fbc6-7a4b-453e-bb3a-cfe9ec010db1))
+    (pin "4" (uuid f8fe13e1-4db4-4083-8e88-d29f1ae4f2b0))
+    (pin "5" (uuid 2369ea0f-1aa6-4eee-a4c6-b994a6116e45))
+    (pin "6" (uuid c570d598-4865-4f3c-97d0-a0380cff3c9e))
   )
 
   (symbol (lib_id "power:GND") (at 205.74 272.415 0) (unit 1)
@@ -11008,10 +11004,6 @@
     (pin "2" (uuid c4f66322-4659-475d-bc83-eea9c6c393b3))
     (pin "7" (uuid 633a3c1f-05e4-42f0-b974-19622911a7a8))
     (pin "8" (uuid 50c21269-8e7d-432a-96e3-0048cb8368dd))
-    (pin "3" (uuid d1127480-2a0f-42d2-bff6-f638f5913256))
-    (pin "4" (uuid f2181471-4616-41c0-9a9b-de01d2fe0163))
-    (pin "5" (uuid fa40609a-7ad3-462a-8d56-3b857feac874))
-    (pin "6" (uuid 3a6704ad-4729-431d-97a7-7cbf54ab14a5))
   )
 
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 28.575 133.35 0) (mirror y) (unit 1)
@@ -11572,7 +11564,6 @@
     )
     (pin "1" (uuid 9f9d5b6e-0636-4dfc-849d-d05e04f86863))
     (pin "3" (uuid 2333a5ad-b26e-49ac-a098-e2886c2c4459))
-    (pin "2" (uuid 5a326ee5-670a-4e90-946c-5f4200ba62aa))
   )
 
   (symbol (lib_id "Relay:FINDER-36.11") (at 285.115 231.775 0) (unit 1)

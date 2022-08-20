@@ -8,9 +8,9 @@
     </head>
     <body>
     <h1>D:\GitHubRepos\__ENGEDU\2022_Special_Topics\Training_Based\Training_Based.kicad_sch</h1>
-    <p>7/25/2022 2:00:56 PM</p>
-    <p>Eeschema (6.99.0-2225-g61f71e0814)</p>
-    <p><b>Component Count:</b>131</p>
+    <p>17/8/2565 14:44:29</p>
+    <p>Eeschema (6.99.0-2815-gbbc0c61ccb)</p>
+    <p><b>Component Count:</b>140</p>
     <table>
     <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
     <tr><td>BZ1</td><td>1</td><td>Buzzer (IN)</td><td>Device:Buzzer</td><td>Buzzer_Beeper:Buzzer_12x9.5RM7.6</td><td>Buzzer, polarized</td><td></td></tr>
@@ -19,7 +19,10 @@
     <tr><td>C2</td><td>1</td><td>1nF/50V</td><td>ESP32-PoE-ISO_Rev_D:C</td><td>Capacitor_SMD:C_0603_1608Metric</td><td></td><td></td></tr>
     <tr><td>C3, C5</td><td>2</td><td>100uF/35V</td><td>Device:C_Polarized_Small_US</td><td>Capacitor_SMD:CP_Elec_6.3x7.7</td><td>Polarized capacitor, small US symbol</td><td></td></tr>
     <tr><td>C4</td><td>1</td><td>100nF/50V</td><td>ESP32-PoE-ISO_Rev_D:C</td><td>Capacitor_SMD:C_0603_1608Metric</td><td></td><td></td></tr>
+    <tr><td>C6, C8</td><td>2</td><td>1nF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C7</td><td>1</td><td>0.1uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
     <tr><td>D1, D2</td><td>2</td><td>M7</td><td>Device:D</td><td>Training_Based:DO-214AC</td><td>Diode</td><td></td></tr>
+    <tr><td>D3</td><td>1</td><td>BZX84C3V3LT1G</td><td>Device:D_Zener_Dual_CommonCathode_AAK_Split</td><td>Package_TO_SOT_SMD:SOT-323_SC-70</td><td>Dual Zener diode, common anode on pin 1</td><td></td></tr>
     <tr><td>F1</td><td>1</td><td>3.00A</td><td>Device:Polyfuse</td><td>Fuse:Fuse_1210_3225Metric</td><td>Resettable fuse, polymeric positive temperature coefficient</td><td></td></tr>
     <tr><td>H1, H2, H3, H4</td><td>4</td><td>MountingHole_Pad</td><td>Mechanical:MountingHole_Pad</td><td>MountingHole:MountingHole_3.2mm_M3_Pad_Via</td><td>Mounting Hole with connection</td><td></td></tr>
     <tr><td>J1</td><td>1</td><td>ESP32_LEFT_A</td><td>Connector_Generic:Conn_01x19</td><td>Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical</td><td>Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
@@ -47,20 +50,22 @@
     <tr><td>J23, J24</td><td>2</td><td>Conn_01x08</td><td>Connector_Generic:Conn_01x08</td><td>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</td><td>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>K1, K2</td><td>2</td><td>FINDER-36.11</td><td>Relay:FINDER-36.11</td><td>Relay_THT:Relay_SPDT_Finder_36.11</td><td>FINDER 36.11, SPDT relay, 10A</td><td></td></tr>
     <tr><td>L1</td><td>1</td><td>2.2uH/1.5A</td><td>ESP32-PoE-ISO_Rev_D:L</td><td>Inductor_SMD:L_Neosid_SMS-ME3015</td><td></td><td></td></tr>
-    <tr><td>LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12</td><td>12</td><td>RED 1206</td><td>Device:LED</td><td>LED_SMD:LED_1206_3216Metric</td><td>Light emitting diode</td><td></td></tr>
-    <tr><td>P1</td><td>1</td><td>K1</td><td>Connector:Screw_Terminal_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>P2</td><td>1</td><td>K2</td><td>Connector:Screw_Terminal_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>P3</td><td>1</td><td>OPTO INPUT 1</td><td>Connector:Screw_Terminal_01x02</td><td>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>P4</td><td>1</td><td>OPTO INPUT 2</td><td>Connector:Screw_Terminal_01x02</td><td>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>P5</td><td>1</td><td>Voltage Input</td><td>Connector:Screw_Terminal_01x02</td><td>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12, LED13</td><td>13</td><td>RED 1206</td><td>Device:LED</td><td>LED_SMD:LED_1206_3216Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>P1</td><td>1</td><td>K1</td><td>Connector:Screw_Terminal_01x03</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06303HBWC_1x03_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>P2</td><td>1</td><td>K2</td><td>Connector:Screw_Terminal_01x03</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06303HBWC_1x03_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>P3</td><td>1</td><td>OPTO INPUT 1</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>P4</td><td>1</td><td>OPTO INPUT 2</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>P5</td><td>1</td><td>Voltage Input</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>PIR1</td><td>1</td><td>PIR_Motion_Sensor</td><td>sensors:PIR_Motion_Sensor</td><td>Sensors:PIR_HC-SR501</td><td>PIR motion sensor</td><td></td></tr>
     <tr><td>Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14</td><td>14</td><td>BC817</td><td>Transistor_BJT:BC817</td><td>Package_TO_SOT_SMD:SOT-23</td><td>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</td><td></td></tr>
-    <tr><td>R1, R4, R6, R8, R10, R12, R14, R16, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R39, R42</td><td>20</td><td>470</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
-    <tr><td>R2, R3, R5, R7, R9, R11, R13, R15, R17, R18, R19, R20, R21, R22, R38, R40, R41</td><td>17</td><td>10k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R1, R4, R6, R8, R10, R12, R14, R16, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R39, R42, R45</td><td>21</td><td>470</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R2, R3, R5, R7, R9, R11, R13, R15, R17, R18, R38, R40, R41, R48, R49, R50</td><td>16</td><td>10k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R19, R20, R21, R22</td><td>4</td><td>4.7k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R33, R34</td><td>2</td><td>1k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R35, R36</td><td>2</td><td>47k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R37</td><td>1</td><td>LDR07</td><td>Sensor_Optical:LDR07</td><td>OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical</td><td>light dependent resistor</td><td></td></tr>
-    <tr><td>R43, R44</td><td>2</td><td>R_Small</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R43</td><td>1</td><td>100k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R44</td><td>1</td><td>10k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R46</td><td>1</td><td>220k</td><td>ESP32-PoE-ISO_Rev_D:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td></td><td></td></tr>
     <tr><td>R47</td><td>1</td><td>49.9k/1%</td><td>ESP32-PoE-ISO_Rev_D:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td></td><td></td></tr>
     <tr><td>RV1</td><td>1</td><td>50kB</td><td>Device:R_Potentiometer</td><td>Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal</td><td>Potentiometer</td><td></td></tr>
