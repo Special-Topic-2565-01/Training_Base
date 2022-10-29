@@ -8064,10 +8064,10 @@
     (property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf" (id 3) (at 49.53 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "3" (uuid df26fbc6-7a4b-453e-bb3a-cfe9ec010db1))
-    (pin "4" (uuid f8fe13e1-4db4-4083-8e88-d29f1ae4f2b0))
-    (pin "5" (uuid 2369ea0f-1aa6-4eee-a4c6-b994a6116e45))
-    (pin "6" (uuid c570d598-4865-4f3c-97d0-a0380cff3c9e))
+    (pin "3" (uuid 7c7abdbe-c409-4d16-8ca7-eb4f879886a6))
+    (pin "4" (uuid 04a51467-a673-423a-8b82-68bd862cbc2c))
+    (pin "5" (uuid 04dc863f-bb0e-47cf-8fdf-3423ee26a955))
+    (pin "6" (uuid 2d00466d-2175-4235-941c-0426630bb05f))
   )
 
   (symbol (lib_id "power:GND") (at 205.74 272.415 0) (unit 1)
@@ -12092,13 +12092,13 @@
       (reference "C1") (unit 1) (value "22uF/6.3V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/522a25cd-a2d1-4159-a065-4737d2e42747"
-      (reference "C2") (unit 1) (value "1nF/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C2") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/3702c5ea-854f-4c6b-848e-94e2cdbf1829"
       (reference "C3") (unit 1) (value "100uF/35V") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
     (path "/9ed61fd4-e3f5-442a-a6c6-9543f2afcf31"
-      (reference "C4") (unit 1) (value "100nF/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C4") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/1eff4f9c-3894-4d4d-9f78-b8df7da21dbf"
       (reference "C5") (unit 1) (value "100uF/35V") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
@@ -12455,7 +12455,7 @@
       (reference "R46") (unit 1) (value "220k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/def14df8-818c-4345-9eb0-731347a754ce"
-      (reference "R47") (unit 1) (value "49.9k/1%") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R47") (unit 1) (value "49.9k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3730ff5c-c507-40eb-8cc4-d34000d54c37"
       (reference "R48") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -12503,7 +12503,7 @@
       (reference "U6") (unit 1) (value "TSOP382xx") (footprint "OptoDevice:Vishay_MINICAST-3Pin")
     )
     (path "/94699ce9-0711-4d23-847f-23f3ea96d682"
-      (reference "U7") (unit 1) (value "SY8089AAAC(SOT23-5)") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U7") (unit 1) (value "SY8089AAAC") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
   )
 )
