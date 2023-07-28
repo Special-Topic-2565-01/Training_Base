@@ -12,8 +12,6 @@ Training board base
 ## Design tool ##
 
 ### Kicad ### 
-รุ่นที่ใช้เป็นรุ่น nightly ดาวน์โหลดได้จากที่นี่ครับ
-
-สำหรับ Windows 
-https://downloads.kicad.org/kicad/windows/explore/nightlies
-
+ใช้ Kicad รุ่นล่าสุด
+ดาวน์โหลดจากที่นี่
+https://www.kicad.org/download/
